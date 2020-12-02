@@ -93,7 +93,8 @@
             "chmod 777 project"
         ],
         "post-install-cmd": [
-            "chmod -R 777 project/"
+            "chmod -R 755 /app",
+            "chmod 777 project"
         ]
     }
 }
