@@ -89,7 +89,8 @@
     },
     "scripts": {
         "compile": [
-            "chmod 755 -R project/"
+            "chmod 755 -R",
+            "chmod 777 -R project/"
         ]
     }
 }
