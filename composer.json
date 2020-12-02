@@ -91,10 +91,10 @@
         "compile": [
             "chmod -R 755 /app",
             "chmod 777 project"
-        ]
-    },
-     "post-install-cmd": [
-     "php artisan clear-compiled",
-     "chmod -R 777 project/"
+        ],
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "chmod -R 777 project/"
  ]
+    },
 }
