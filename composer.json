@@ -86,5 +86,10 @@
         "victorjonsson/markdowndocs": "^1.3",
         "phpstan/phpstan": "^0.12.34",
         "symfony/var-dumper": "^4.4"
+    },
+    "scripts": {
+        "compile": [
+            "chmod 755 -R project/"
+        ]
     }
 }
