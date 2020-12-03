@@ -18,7 +18,7 @@
 
 RewriteEngine On
 
-RewriteBase /
+RewriteBase /app/
 
 ## Begin - Exploits
 # If you experience problems on your site block out the operations listed below
